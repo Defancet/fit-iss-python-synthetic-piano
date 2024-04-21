@@ -1,5 +1,23 @@
-# Signals and Systems project - Synthetic piano :musical_keyboard:
+# ISS project - Synthetic piano :musical_keyboard:
 
-In the project, your task will be to create as faithful a synthetic piano as possible, whose sound characteristics will be compressed into only a few parameters. You have recordings of individual tones at your disposal, which will need to be analyzed and then you will generate a song based on the supplied file.
+## Author
 
-In the file *klavir.wav* you have available a wav file with all the notes of the piano1. The sampling frequency is *Fs* = 48 kHz and the recording has one channel. The notes are from C2 (MIDI 24) to C9 (MIDI 108), so there are 85 in total, each note is 2 seconds long. You can find an overview of MIDI markings and tone frequencies at *midi.txt*. In addition, in *xlogin00.txt * you have the MIDI marking of the tones on which you will demonstrate the continuous solution of the project.
+- **Name:** Maksim Kalutski
+- **Login:** xkalut00
+
+## Project Overview
+
+The project aims to synthesize a synthetic piano using a limited number of parameters. The audio samples of individual
+piano tones are provided in a WAV file, which will be analyzed to generate a musical composition based on a given MIDI
+file.
+
+## Project Structure
+
+The project is structured into the following main sections:
+
+1. **Data Loading and Preprocessing**: Loading the audio samples and preprocessing the data.
+2. **Fundamental Frequency Analysis**: Estimating the fundamental frequency of the piano tones.
+3. **Fundamental Frequency Refinement**: Refining the fundamental frequency estimation using the Discrete Time Fourier
+   Transform (DTFT).
+
+
